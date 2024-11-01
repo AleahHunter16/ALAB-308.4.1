@@ -15,8 +15,7 @@ console.log(objectsArray);
 
 //part 4
 
-
-objectsArray = objectsArray.slice(0, -1); // last element 
+objectsArray = objectsArray.slice(0, -1); // the last element 
 
 objectsArray.splice(1, 0, { id: "48", name: "Barry", occupation: "Runner", age: "25" }); // new object at index 1
 
